@@ -1,0 +1,24 @@
+{
+  "name": "devroomtrialbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/yaml": "^1.9.7",
+    "discord.js": "^14.9.0",
+    "dotenv-safe": "^8.2.0",
+    "mongoose": "^7.0.3",
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

@@ -1,0 +1,49 @@
+general:
+  ticket-category: "tickets" # Category name
+  ticket-format: "ticket-{user}" # Ticket name format you can use {user} {user-id} {user-tag} {user-discriminator}
+  max-tickets: 5 # Max tickets per user
+  staff-role: "768580198655590472" # Role ID
+  ping-staffs: true # Ping staffs when a ticket is created
+
+create-ticket-message:
+  embed:
+    title: "Ticket"
+    description: "Click here to create a ticket"
+    color: "3776ed" # Hex without "#"
+  button: "Create Ticket"
+ticket-created:
+  title: "Ticket Created"
+  description: "Your ticket has been created!"
+  color: "3776ed" # Hex without "#"
+ticket-limit:
+  title: "Ticket Limit Reached"
+  description: "You have reached the maximum amount of tickets! (5)"
+  color: "3776ed" # Hex without "#"
+ticket-first-message: # Message that will be sent to ticket channel when it is created
+  title: "Welcome to your ticket!"
+  description: "Please wait for a staff member to help you!"
+  color: "3776ed" # Hex without "#"
+not-ticket-channel:
+  title: "Not a ticket channel"
+  description: "This channel is not a ticket channel!"
+  color: "3776ed" # Hex without "#"
+not-staff:
+  title: "Not a staff member"
+  description: "You are not a staff member!"
+  color: "3776ed" # Hex without "#"
+already-added:
+  title: "Already added"
+  description: "This user is already added to the ticket!"
+  color: "3776ed" # Hex without "#"
+user-added:
+  title: "User added"
+  description: "User has been added to the ticket!"
+  color: "3776ed" # Hex without "#"
+not-added:
+  title: "Not added"
+  description: "This user is not added to the ticket!"
+  color: "3776ed" # Hex without "#"
+user-removed:
+  title: "User removed"
+  description: "User has been removed from the ticket!"
+  color: "3776ed" # Hex without "#"
